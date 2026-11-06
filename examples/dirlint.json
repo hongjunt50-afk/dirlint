@@ -1,0 +1,28 @@
+{
+  "allowedTop": ["projects", "tools", "workspace", "archive", "cache", "docs"],
+  "ignoredTop": ["$RECYCLE.BIN", "System Volume Information"],
+  "zones": {
+    "projects": ["projects", "github"],
+    "tools": ["tools"],
+    "workspace": ["workspace"],
+    "archive": ["docs/archive"],
+    "cache": ["cache"]
+  },
+  "workspaceAllowed": ["temp", "temp-workspace", "cleanup"],
+  "retired": [],
+  "scan": {
+    "maxDepth": 4,
+    "ignoreDirs": ["node_modules", ".git", ".venv", "venv", "__pycache__", ".pnpm-store"]
+  },
+  "rules": {
+    "topLevel": true,
+    "nesting": true,
+    "projectRootFiles": true,
+    "backups": true,
+    "tempDirs": true,
+    "workspace": true,
+    "retired": true,
+    "duplicates": false
+  },
+  "duplicates": { "minBytes": 1048576 }
+}
