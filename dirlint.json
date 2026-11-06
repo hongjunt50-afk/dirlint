@@ -1,0 +1,22 @@
+{
+  "allowedTop": ["dirlint", "tests", "docs", "examples", ".github"],
+  "ignoredTop": [".git", ".impeccable", "__pycache__", "dirlint.egg-info", "build", "dist"],
+  "allowedFilesAtRoot": [
+    "README.md", "LICENSE", "CHANGELOG.md", "DESIGN.md", "PRODUCT.md",
+    "pyproject.toml", "dirlint.json", ".gitignore", ".gitattributes", ".npmrc",
+    ".env.example", ".editorconfig"
+  ],
+  "zones": {"projects": [], "tools": [], "workspace": [], "archive": [], "cache": []},
+  "workspaceAllowed": [],
+  "retired": [],
+  "rules": {
+    "topLevel": true,
+    "nesting": false,
+    "projectRootFiles": false,
+    "backups": false,
+    "tempDirs": false,
+    "workspace": false,
+    "retired": false,
+    "duplicates": false
+  }
+}
